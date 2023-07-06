@@ -1,0 +1,12 @@
+.menuList > .list1 {
+    transform: translateX(-100%);
+    transition: 1s ease-in-out;
+}
+.menuList > .list2 {
+    transform: translateX(-100%);
+    transition: 1.2s ease-in-out;
+}
+.menuList > .list3 {
+    transform: translateX(-100%);
+    transition: 1.4s ease-in-out;
+}
