@@ -62,9 +62,14 @@ nav {
     padding: 12px 0px;
 } */
 
+
 .menuList {
     display: flex;
     flex-direction: column;
+}
+
+.menuBlock {
+    display: none;
 }
 
 .menuList a {
