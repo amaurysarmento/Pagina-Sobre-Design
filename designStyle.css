@@ -10,36 +10,27 @@ body {
 }
 
 .menuBar {
-    margin: -6%;
+    margin: 0% 2vh;
     padding-top: 6%;
     padding-bottom: 15px;
+    width: 130%;
 }
 
 .bar1 {
     margin: 20px 0px 12px 20px;
     height: 5px;
     width: 9%;
-    background-color: black;
+    background: linear-gradient(45deg, aliceblue, rgb(159, 160, 161), rgba(159, 160, 161, 0.671) );
     display: block;
     border-radius:7px;    
     transform: translateY(-4px);
 }
 
-.bar2 {
+.bar2, .bar3 {
     margin: -15px 0px 20px 20px;
     height: 5px;
     width: 9%;
-    background-color: black;
-    display: block;
-    border-radius:7px;
-    transform: translateY(4px);
-}
-
-.bar3 {
-    margin: -15px 0px 20px 20px;
-    height: 5px;
-    width: 9%;
-    background-color: black;
+    background: linear-gradient(45deg, aliceblue, rgb(159, 160, 161), rgba(159, 160, 161, 0.671) );
     display: block;
     border-radius:7px;
     transform: translateY(4px);
@@ -50,7 +41,9 @@ body {
 }
 
 .container-menu {
-    background-image: linear-gradient(to bottom, rgba(255, 0, 85, 0.082), rgba(167, 27, 81, 0.068),  rgba(138, 214, 195, 0.034), rgba(128, 128, 128, 0.062)) ;
+    background: url(imgs/v2-MINIMALIST-LANDSCAPE-SUN-4k.png);
+    background-size: cover;
+    background-position: center;
     padding: 15px;
 }
 
@@ -58,12 +51,16 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .menuList a {
     list-style: none;
     text-decoration: none;
     text-align: justify;
     font-size: 16px;
-    padding: 12px 3px;
+    font-weight: bolder;
+    padding: 4vw 8vh;
+    margin-top: 1vh;
+    color:  rgba(235, 234, 234, 0.979);
 }
 
 section {
@@ -88,7 +85,10 @@ section > p {
 }
 
 footer {
-    background-image: linear-gradient(to bottom, rgba(255, 0, 85, 0.082), rgba(167, 27, 81, 0.068),  rgba(138, 214, 195, 0.034), rgba(128, 128, 128, 0.062)) ;
+    background: url(imgs/v2-MINIMALIST-LANDSCAPE-SUN-4k.png);
+    background-size: cover;
+    background-position: center;
+    opacity: calc(90%);
     display: flex;
     flex-direction: column;
     margin-top: 10%;
@@ -97,10 +97,15 @@ footer {
 
 footer p {
     padding-bottom: 12px;
+    color:  rgb(235, 234, 234);
+    font-weight: bolder;
 }
 
 footer a {
     padding: 5px 0px ;
+    color:  rgb(235, 234, 234);
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 
