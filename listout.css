@@ -1,20 +1,8 @@
 nav {
-    /* background: url(imgs/Duvar\ kağıdı\ Wallpaper.jpg); */
-    /* background-size: cover;
-    background-position: bottom; */
     display: none;
 }
-/* .container-menu {
-    background: url(imgs/Duvar\ kağıdı\ Wallpaper.jpg);
-    background-size: cover;
-    background-position: bottom;
-    padding: 16vh 0px;
-    opacity: calc(75%);
-    padding-top:5vh;
-    transition: 1s ease-in-out;
-} */
 
-nav a {
+/* nav a {
     color: aliceblue;
     width: 58vw;
-} 
+}  */

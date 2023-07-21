@@ -12,52 +12,46 @@ body {
     margin: auto;
 }
 
-.menuBar {
-    position: absolute;
-    left: 5vw;
-    top: 5vh;
-    width: 100%;
-}
-
-.bar1 {
-    background: linear-gradient(45deg, #414346ab, #4b4e52ab, #5f6c79ab, #626466ab);
-    position: relative;
-    top: 7vh;
-    height: 5px;
-    width: 6%;
-    margin: 12px 0px 12px 30px;
-    padding:0px 10px;
-    border-radius:2px;
-}
 
 .container-menu {
-    /* background: url(imgs/Duvar\ kağıdı\ Wallpaper.jpg); */
-    /* background-size: cover;
-    background-position: bottom; */
     position: relative;
-    bottom: 10vh;
-    padding: 16vh 0px;
+    bottom: 15vh;
+    padding: 0vh 0vw;
     opacity: calc(75%);
-    padding-top:5vh;
+    padding-top:0vh;
     transition: 1s ease-in-out;
 }
 
+.menBar{
+    margin: 20vh 0px;
+    padding: 25vh 0vh;
+    width: 10vh;
+    height: 10vw;
+}
+
+.bar1, .bar1, .bar1 {
+    background: linear-gradient(75deg, #85a6d8ab, #547cafab, #6287acab, #6884a5ab);
+    position: relative;
+    top: 20vh;
+    left: 12vw;
+    height: 1vh;
+    width: 3vw;
+    margin: 2vh 3px;
+    padding: 1px 20px;
+    border-radius:2px;
+}
+
+
 .menuList {
     background: url(imgs/Duvar\ kağıdı\ Wallpaper.jpg); 
-    background-size: cover;
+    background-size: auto;
     background-position: bottom;
     display: flex;
     flex-direction: column;
     padding-top: 8vh;
-    padding-bottom: 2vh;
-}
-
-.menuList {
-    display: flex;
-    flex-direction: column;
-    padding-top: 8vh;
-    padding-bottom: 2vh;
-}
+    padding-bottom: 15vh;
+    
+} 
 
 .menuList a {
     list-style: none;
@@ -66,14 +60,17 @@ body {
     font-size: 16px;
     font-weight: bolder;
     padding: 2vh 5vh;
-    margin-top: 3vh;
+    margin-top: 8vh;
+    color: aliceblue;
+    width: 58vw;
+    height: 5vh;
     transition: 2s ease-in-out;
     transform: translateX(10%);
 }
 
 
 section {
-    margin: 15% 10% 0% 10%;
+    margin: 35% 10% 0% 10%;
 }
 
 section > img {
