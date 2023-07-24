@@ -2,6 +2,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -15,29 +16,33 @@ body {
 
 .container-menu {
     position: relative;
-    bottom: 15vh;
+    bottom: 17.5vh;
     padding: 0vh 0vw;
     opacity: calc(75%);
     padding-top:0vh;
-    transition: 1s ease-in-out;
 }
 
-.menBar{
-    margin: 20vh 0px;
-    padding: 25vh 0vh;
-    width: 10vh;
-    height: 10vw;
+.menuBar{
+    position: relative;
+    top: 22vh;
+    left: 6%;
+    margin: 2vh 2vw;
+    padding: 2rem;
+    width: 5vw;
+    height: 5vh;
+    cursor: pointer;
 }
 
-.bar1, .bar1, .bar1 {
+.bar1 {
+    cursor: pointer;
     background: linear-gradient(75deg, #85a6d8ab, #547cafab, #6287acab, #6884a5ab);
     position: relative;
-    top: 20vh;
-    left: 12vw;
+    top: -6vh;
+    left: -10vw;
     height: 1vh;
     width: 3vw;
-    margin: 2vh 3px;
-    padding: 1px 20px;
+    margin: 2vh 3vw;
+    padding: 3px 20px;
     border-radius:2px;
 }
 
