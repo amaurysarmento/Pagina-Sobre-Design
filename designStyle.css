@@ -7,64 +7,73 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.1em;
-}
-.container-menu {
-    /* background: url(imgs/Duvar\ kağıdı\ Wallpaper.jpg);
-    background-size: cover;
-    background-position: bottom; */
-    padding: 15px;
-    opacity: calc(85%);
-    padding-top:5vh;
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 
 .menuBar {
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    width: 100%;
+}
+
+.bar1 {
+    background: linear-gradient(45deg, #414346ab, #4b4e52ab, #5f6c79ab, #626466ab);
     position: relative;
-    margin: 3vw;
-    padding: 2vh;
-    width: 10vh;
-    height: 10vw;
-    cursor: pointer;
-}
-.menuBar > .bar1 {
-    background: linear-gradient(45deg, rgb(235, 239, 241), rgb(206, 212, 218), rgba(197, 202, 207, 0.671) );
-    margin: 10% 5%;
+    top: 7vh;
     height: 5px;
-    width: 10vw;
-    border-radius:7px;
-    
+    width: 6%;
+    margin: 12px 0px 12px 30px;
+    padding:0px 10px;
+    border-radius:2px;
 }
 
-
-
+.container-menu {
+    /* background: url(imgs/Duvar\ kağıdı\ Wallpaper.jpg); */
+    /* background-size: cover;
+    background-position: bottom; */
+    position: relative;
+    bottom: 10vh;
+    padding: 16vh 0px;
+    opacity: calc(75%);
+    padding-top:5vh;
+    transition: 1s ease-in-out;
+}
 
 .menuList {
-    background: url(imgs/Duvar\ kağıdı\ Wallpaper.jpg);
+    background: url(imgs/Duvar\ kağıdı\ Wallpaper.jpg); 
     background-size: cover;
     background-position: bottom;
-    height: 70vh;
-    width: 99.5vw;
-    margin: -35.7% -5%;
-    display: block;
-    transition: 2s  ;
-    transform: translateY(6%, -5%);
+    display: flex;
+    flex-direction: column;
+    padding-top: 8vh;
+    padding-bottom: 2vh;
+}
+
+.menuList {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8vh;
+    padding-bottom: 2vh;
 }
 
 .menuList a {
-    display: flex;
-    position: relative;
-    top: 15vh;
     list-style: none;
     text-decoration: none;
     text-align: left;
     font-size: 16px;
     font-weight: bolder;
-    padding: 7vh 17vw 0vh 10vh;
-    margin-top: 4vh;
+    padding: 2vh 5vh;
+    margin-top: 3vh;
+    transition: 2s ease-in-out;
+    transform: translateX(10%);
 }
 
 
 section {
-    margin: 35% 10% 0% 10%;
+    margin: 15% 10% 0% 10%;
 }
 
 section > img {
