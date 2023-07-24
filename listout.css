@@ -1,8 +1,8 @@
 nav {
     display: none;
 }
+
 nav a {
-    transition: 1s ease-in-out;
-    transform: translateX(10%);
     color: aliceblue;
 } 
+
