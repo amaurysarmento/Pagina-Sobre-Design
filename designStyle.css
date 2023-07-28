@@ -65,11 +65,13 @@ body {
     text-align: left;
     font-size: 16px;
     font-weight: bolder;
-    padding: 2vh 5vh;
-    margin-top: 8vh;
+    justify-content: space-around;
+    letter-spacing: 2px;
+    padding: 5vh 0vh;
+    margin: 6vh 8vh;
     color: aliceblue;
     width: 58vw;
-    height: 5vh;
+    height: 0vh;
 }
 
 .animation   {
