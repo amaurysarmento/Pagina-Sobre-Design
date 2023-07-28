@@ -25,10 +25,10 @@ body {
 .menuBar{
     position: relative;
     top: 22vh;
-    left: 6%;
+    left: 12%;
     margin: 2vh 2vw;
-    padding: 2rem;
-    width: 5vw;
+    padding: 6vh 12vw;
+    width: 7vw;
     height: 5vh;
     cursor: pointer;
     z-index: 2;
@@ -40,11 +40,11 @@ body {
     display: block;
     position: relative;
     top: -6vh;
-    left: -10vw;
+    left: -12vw;
     height: 1vh;
-    width: 3vw;
+    width: 2vh;
     margin: 2vh 3vw;
-    padding: 3px 20px;
+    padding: 3px 29px;
     border-radius:2px;
 }
 
@@ -63,12 +63,12 @@ body {
     list-style: none;
     text-decoration: none;
     text-align: left;
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: bolder;
     justify-content: space-around;
     letter-spacing: 2px;
-    padding: 5vh 0vh;
-    margin: 6vh 8vh;
+    padding: 3vh 0vh;
+    margin: 6vh 12vh;
     color: aliceblue;
     width: 58vw;
     height: 0vh;
@@ -99,10 +99,17 @@ section > img {
     width: 96%;
 }
 
+.txt-top {
+    padding:12% 2%;
+    font-weight: bolder;
+    font-size: 2.5em;
+    justify-content: left;
+}
+
 section > h1, h2 {
     padding:12% 2%;
     font-weight: bolder;
-    font-size: 1.5em;
+    font-size: 2em;
     justify-content: left;
 }
 
